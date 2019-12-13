@@ -1,0 +1,53 @@
+<main class="container-fluid">
+	<p class="tbd">All material subject to change, particularly prior to the start of the quarter.</p>
+	<h1>Calendar</h1>
+	<ng-container *ngFor="let day of calendar">
+		<hr class="row">
+		<div class="row">
+			<div class="col-2">
+				<h2>{{day.date_str}}</h2>
+			</div>
+			<div class="col-10">
+				<div class="col-12 event" [ngClass]="event.type" *ngFor="let event of day.events">
+					<h2 *ngIf="event.type == 'class'">
+						{{event.title}}
+						<a [href]="event.slides" target="_blank" *ngIf="event.slides">(slides)</a>
+					</h2>
+					<p *ngIf="event.readings">
+						Read the following:
+					</p>
+					<p *ngIf="event.type == 'class' && !event.readings">
+						No readings assigned.
+					</p>
+					<ul>
+						<ng-container *ngFor="let reading of event.readings">
+							<li *ngIf="!reading.optional"><app-paper [paper]="reading"></app-paper></li>
+						</ng-container>
+					</ul>
+					<p *ngIf="event.readings">
+						Optional resources:
+					</p>
+					<ul>
+						<ng-container *ngFor="let reading of event.readings">
+							<li *ngIf="reading.optional"><app-paper [paper]="reading"></app-paper></li>
+						</ng-container>
+					</ul>
+					<div *ngIf="event.notes">
+						<h3>Notes</h3>
+						<p>{{event.notes}}</p>
+					</div>
+					<h2 *ngIf="event.type == 'officehours_daniel'">{{event.label}}</h2>
+					<h2 *ngIf="event.type == 'holiday' || event.type == 'absence'">{{event.title}}</h2>
+					<div class="title" *ngIf="event.anchor && (event.type == 'project' || event.type == 'due')">
+						<h2>Due: <a href="/project#{{event.anchor}}">{{event.title}}</a></h2>
+					</div>
+					<div class="title" *ngIf="!event.anchor && event.link && (event.type == 'project' || event.type == 'due')">
+						<h2>Due: <a [href]="event.link">{{event.title}}</a></h2>
+					</div>
+					<h2 *ngIf="!event.link && !event.anchor && (event.type == 'project' || event.type == 'due')">Due: {{event.title}}</h2>
+					<div *ngIf="event.type == 'project' || event.type == 'due'">{{event.name}}</div>
+				</div>
+			</div>
+		</div>
+	</ng-container>
+</main>

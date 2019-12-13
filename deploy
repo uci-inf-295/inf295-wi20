@@ -1,0 +1,2 @@
+ng build --prod
+npx ngh --dir=dist/inf295-wi20 --cname=inf295-wi20.depstein.net

@@ -1,0 +1,101 @@
+<main class="container-fluid">
+   <p class="tbd">All material subject to change, particularly prior to the start of the quarter.</p>
+   <h1>Project</h1>
+   <p>Many of you are actively conducting research in personal informatics or related areas, so we welcome and even encourage projects that align with research goals beyond this course. However, it is critical that projects define what they will specifically accomplish in the scope of the course. The course project must stand on its own, not merely be a snapshot of an outside research process.</p>
+   <p>We expect you to complete your project individually or in a pair.</p>
+   <h2>Early Feedback</h2>
+   <p>Course staff will be made available to meet and provide early feedback as desired.</p>
+   <p>Meeting is optional. You can also email to request feedback or inquire about arranging another time to meet.</p>
+   <h2>Project Deliverables</h2>
+   <p>Project deliverables are defined in terms of a <em>proposal</em>, two <em>milestones</em>, and a <em>final report</em>. These are due the night before class (11:59pm) on:</p>
+   <ul>
+      <li *ngFor="let project of projects">
+         {{project.title}}: {{project.dueShort}}
+      </li>
+   </ul>
+   <h3 id="proposal">Project Proposal</h3>
+   <p>Your proposal will define your initial plan for this project. You can and should update this plan based on feedback, progress, and findings. But the proposal needs to demonstrate a robust initial plan for your project.</p>
+   <p>You are welcome and even encouraged to align your project with your research, other course projects, or other goals outside this course. However, it is critical to define what you will accomplish in the course project. The course project must stand on its own.</p>
+   <h4>Document</h4>
+   <p>Prepare a roughly 1 page document addressing the following points:</p>
+   <ul>
+      <li>What makes the project interesting? What is the problem or research question?</li>
+      <li>What existing understanding of the problem has been developed? For a research proposal, this will briefly cover the most important related work in the space you are exploring. For a design proposal, this will introduce existing solutions, why they fall short, and the potential opportunity.</li>
+      <li>What milestones will the group plan to accomplish? There are two milestone reports in the quarter, one early and one late. These are opportunities for feedback and guidance from staff and classmates. Explain what your group will plan to accomplish by each of these milestones. You will be asked to revisit these plans during those milestone reports.</li>
+      <li>What might the group explicitly decide to omit? Progress requires compromise, as you cannot accomplish everything. Explain what aspects of the project you might choose to ignore or defer in this course. This is your opportunity to scope the project appropriately for this course.</li>
+   </ul>
+   <h4>Presentation</h4>
+   <p>Prepare a roughly 5-minute presentation. Be sure to highlight the problem you are planning to tackle and how you are planning to approach each component, to the extent that you know.</p>
+   <p>This presentation can be informal. The primary goal of this presentation is feedback. Please be appropriately candid, thoughtful, and engaged.</p>
+   <h4>Submission</h4>
+   <span *ngFor="let project of projects">
+      <div *ngIf="project.anchor == 'proposal'">
+         <p>Due {{project.dueLong}}.</p>
+         <p>Submit your proposal document in PDF format: <a [href]="project.link.document">{{project.link.document}}</a></p>
+         <p>Submit your proposal presentation in PDF, PPTX, or KEY format: <a [href]="project.link.presentation">{{project.link.presentation}}</a></p>
+      </div>
+   </span>
+   <h3 id="milestones">Milestones</h3>
+   <p>Two milestone reports serve as a check on the trajectory of your project and an opportunity for feedback and guidance from staff and classmates. Convey the state of your project and your plans for the remainder of the quarter.</p>
+   <p>Milestones consist of a short document and a short in-class presentation.</p>
+   <h4>Document</h4>
+   <p>Prepare a one-page document addressing the following points:</p>
+   <ul>
+      <li>What you have done for this milestone, discussing current progress relative to the plans you previously proposed.</li>
+      <li>What you will do before your next milestone, including any adaptations based on your status or findings.</li>
+      <li>Any areas where you could use advice or are blocked.</li>
+   </ul>
+   <h4>Presentation</h4>
+   <p>Each group will give a short in-class presentation of their proposal. This is an opportunity for feedback from staff and classmates. Your presentation should cover the same information as the document. This is an opportunity for feedback, not a formal presentation. Please be appropriately candid, thoughtful, and engaged.</p>
+   <h4>Submission</h4>
+   <span *ngFor="let project of projects">
+      <div *ngIf="project.anchor == 'milestones'">
+         <p>Due {{project.dueLong}}.</p>
+         <p>Submit your milestone document in PDF format: <a [href]="project.link.document">{{project.link.document}}</a></p>
+         <p>Submit your milestone presentation in PDF, PPTX, or KEY format: <a [href]="project.link.presentation">{{project.link.presentation}}</a></p>
+      </div>
+   </span>
+   <h3 id="finalpresentation">Final Presentation</h3>
+   <p>Each project will give a short in-class presentation on their final project. This should convey appropriate content in the general structure of a research presentation:</p>
+   <ul>
+      <li>Introduction and motivation</li>
+      <li>Statement of contributions</li>
+      <li>Methods</li>
+      <li>Results</li>
+      <li>Discussion, future work, and conclusion</li>
+   </ul>
+   <p>This is intended to focus on appropriately conveying what has been accomplished in the course. After this primary content, additionally reflect on:</p>
+   <ul>
+      <li>Opportunities or Lessons Regarding Publication-Level Research in this Project</li>
+      <li>Broader Insights or Opportunities Regarding Personal Informatics Research</li>
+   </ul>
+   <h4>Submission</h4>
+   <span *ngFor="let project of projects">
+      <div *ngIf="project.anchor == 'finalpresentation'">
+         <p>Due {{project.dueLong}}.</p>
+         <p>Submit your presentation in PDF, KEY, or PPTX format: <a [href]="project.link.document">{{project.link.document}}</a></p>
+      </div>
+   </span>
+   <h3 id="finalreport">Final Report</h3>
+   <p>Prepare a final report that is 4 to 10 pages in length, excluding references.</p>
+   <p>Your final report should describe:</p>
+   <ul>
+      <li>Introduction and motivation</li>
+      <li>Statement of contributions</li>
+      <li>Related work</li>
+      <li>Methods</li>
+      <li>Results</li>
+      <li>Discussion, future work, and conclusion</li>
+   </ul>
+   <p>Write according to the content you have. Be appropriate thorough and precise in your presentation, but do not needlessly pad your text.</p>
+   <p>Use the SIGCHI Proceedings Format: <a href="https://chi2020.acm.org/authors/chi-proceedings-format/">https://chi2020.acm.org/authors/chi-proceedings-format/</a>. You may use either Word or LaTeX to prepare your paper. Do not spend substantial time trying to correct formatting inconsistencies, just do your best.</p>
+   <p>Additional guidance regarding effective paper writing can be found in:</p>
+   <p>Jacob O. Wobbrock. <a href="https://faculty.washington.edu/wobbrock/pubs/Wobbrock-2015.pdf">Catchy Titles Are Good: But Avoid Being Cute</a>. Writing Advice, White Paper, 2015.</p>
+   <h4>Submission</h4>
+   <span *ngFor="let project of projects">
+      <div *ngIf="project.anchor == 'finalreport'">
+         <p>Due {{project.dueLong}}.</p>
+         <p>Submit your final report in PDF format: <a [href]="project.link.document">{{project.link.document}}</a></p>
+      </div>
+   </span>
+</main>

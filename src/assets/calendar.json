@@ -1,0 +1,491 @@
+{
+	"class_default": {
+		"time": "11:00",
+		"duration": "80",
+		"location": "DBH 1423"
+	},
+	"events" : [
+		{
+			"date": "2020-01-06",
+			"type": "class",
+			"title": "Course Overview and Planning",
+			"notes": "No readings this class and no reading query due."
+		},
+		{
+			"date": "2020-01-08",
+			"type": "class",
+			"title": "Stage-Based Model and Mapping the Literature",
+			"readings":[
+				{
+					"authors": ["Ian Li", "Anind Dey", "Jodi Forlizzi"],
+					"title": "A Stage-Based Model of Personal Informatics Systems",
+					"venue":"CHI",
+					"date": "2010",
+					"link": "https://dl.acm.org/citation.cfm?id=1753409"
+				},
+				{
+					"authors": ["TBD"],
+					"title": "Tracking for Health? Mapping and Taking Stock of the Personal Informatics Literature",
+					"venue":"In Preparation",
+					"date": "2020",
+					"link": "https://canvas.eee.uci.edu/files/8006970/download?download_frd=1"
+				},
+				{
+					"authors": ["Rebecca Gulotta", "Jodi Forlizzi", "Rayoung Yang", "Mark W. Newman"],
+					"title": "Fostering Engagement with Personal Informatics Systems",
+					"venue":"DIS",
+					"date": "2016",
+					"link": "https://dl.acm.org/citation.cfm?id=2901803",
+					"optional":true
+				}
+			]
+		},
+		{
+			"date": "2020-01-13",
+			"type": "class",
+			"title": "HCI in Promoting Health and Wellness",
+			"readings":[
+				{
+					"authors": ["Sunny Consolvo", "Predrag Klasnja", "David W. McDonald", "James A. Landay"],
+					"title": "Designing for Healthy Lifestyles: Design Considerations for Mobile Technologies to Encourage Consumer Health and Wellness",
+					"venue":"Foundations & Trends in Human-Computer Interaction",
+					"link": "http://dx.doi.org/10.1561/1100000040",
+					"notes": "This survey paper already provides a larger context for significant research. But it covers a large number of conceptual ideas, necessarily glossing over important people, systems, and results. Presentation should therefore introduce covered people, systems, and results."
+				},
+				{
+					"authors": ["Predrag Klasnja", "Sunny Consolvo", "Wanda Pratt"],
+					"title": "How to Evaluate Technologies for Health Behavior Change in HCI Research",
+					"venue":"CHI",
+					"date": "2011",
+					"link": "https://dl.acm.org/citation.cfm?id=1979396",
+					"optional":true
+				}
+			]
+		},
+		{
+			"date": "2020-01-15",
+			"type": "project",
+			"title": "Project Proposal",
+			"anchor": "proposal",
+			"link": {"document": "https://canvas.eee.uci.edu/courses/22304/assignments/407124", "presentation": "https://canvas.eee.uci.edu/courses/22304/assignments/407128"}
+		},
+		{
+			"date": "2020-01-15",
+			"type": "class",
+			"title": "Presentations on Project Proposals & Mapping Review Work"
+		},
+		{
+			"date": "2020-01-20",
+			"type": "holiday",
+			"title": "No Class, Martin Luther King Day"
+		},
+		{
+			"date": "2020-01-22",
+			"type": "class",
+			"title": "Mapping Review Work"
+		},
+		{
+			"date": "2020-01-27",
+			"type": "class",
+			"title": "Lived Informatics",
+			"readings":[
+				{
+					"authors": ["John Rooksby", "Mattias Rost", "Alistair Morrison", "Matthew Chalmers"],
+					"title": "Personal Tracking as Lived Informatics",
+					"venue":"CHI",
+					"date": "2014",
+					"link": "https://dl.acm.org/citation.cfm?id=2557039"
+				},
+				{
+					"authors": ["Daniel A. Epstein", "An Ping", "James Fogarty", "Sean A. Munson"],
+					"title": "A Lived Informatics Model of Personal Informatics",
+					"venue":"UbiComp",
+					"date": "2015",
+					"link": "https://dl.acm.org/citation.cfm?id=2804250"
+				},
+				{
+					"authors": ["Daniel A. Epstein", "Monica Caraway", "Chuck Johnston", "An Ping", "James Fogarty", "Sean A. Munson"],
+					"title": "Beyond Abandonment to Next Steps: Understanding and Designing for Life after Personal Informatics Tool Use",
+					"venue":"CHI",
+					"date": "2016",
+					"link": "https://dl.acm.org/citation.cfm?id=2858045",
+					"optional":true
+				},
+				{
+					"authors": ["Amanda Lazar", "Christian Koehler", "Theresa J. Tanenbaum", "David H. Nguyen"],
+					"title": "Why We Use and Abandon Smart Devices",
+					"venue":"UbiComp",
+					"date": "2015",
+					"link": "https://dl.acm.org/citation.cfm?id=2804288",
+					"optional":true
+				},
+				{
+					"authors": ["James Clawson", "Jessica A. Pater", "Andrew D. Miller", "Elizabeth D. Mynatt", "Lena Mamykina"],
+					"title": "No Longer Wearing: Investigating the Abandonment of Personal Health-Tracking Technologies on Craigslist",
+					"venue":"UbiComp",
+					"date": "2015",
+					"link": "https://dl.acm.org/citation.cfm?id=2807554",
+					"optional":true
+				}
+			]
+		},
+		{
+			"date": "2020-01-29",
+			"type": "class",
+			"title": "Mapping Review Work"
+		},
+		{
+			"date": "2020-02-03",
+			"type": "class",
+			"title": "Preparation & Self-Experimentation",
+			"readings":[
+				{
+					"authors": ["Jessica Schroeder", "Ravi Karkar", "Natalia Murinova", "James Fogarty", "Sean A. Munson"],
+					"title": "Examining Opportunities for Goal-Directed Self-Tracking to Support Chronic Condition Management",
+					"venue": "IMWUT",
+					"date":"2020",
+					"link":"https://homes.cs.washington.edu/~jesscs/website/pubs/pdfs/ubicomp20.pdf"
+				},
+				{
+					"authors": ["Nediyana Daskalova", "Danaë Metaxa-Kakavouli", "Adrienne Tran", "Nicole Nugent", "Julie Boergers", "John McGeary", "Jeff Huang"],
+					"title": "SleepCoacher: A Personalized Automated Self-Experimentation System for Sleep Recommendations",
+					"venue": "UIST",
+					"date": "2016",
+					"link": "https://dl.acm.org/citation.cfm?id=2984534"
+				},
+				{
+					"authors": ["Ravi Karkar", "Jessica Schroeder", "Daniel A. Epstein", "Laura Pina", "Jeffrey Scofield", "James Fogarty", "Julie A. Kientz", "Sean A. Munson", "Roger Vilardaga", "Jasmine Zia"],
+					"title": "TummyTrials: A Feasibility Study of Using Self-Experimentation to Detect Individualized Food Triggers",
+					"venue": "CHI",
+					"date": "2017",
+					"link": "https://dl.acm.org/citation.cfm?id=3025480",
+					"optional":true
+				},
+				{
+					"authors": ["Jisoo Lee", "Erin Walker", "Winslow Burleson", "Matthew Kay", "Matthew Bauman", "Eric B. Heckler"],
+					"title": "Self-Experimentation for Behavior Change: Design and Formative Evaluation of Two Approaches",
+					"venue": "CHI",
+					"date": "2017",
+					"link": "https://dl.acm.org/citation.cfm?id=3026038",
+					"optional":true
+				},
+				{
+					"authors": ["Nediana Daskalova", "Karthik Desingh", "Alexandra Papoutsaki", "Diane Schulze", "Han Sha", "Jeff Huang"],
+					"title": "Lessons Learned from Two Cohorts of Personal Informatics Self-Experiments",
+					"venue": "IMWUT",
+					"date": "2017",
+					"link": "https://dl.acm.org/citation.cfm?id=3130911",
+					"optional":true
+				}
+			]
+		},
+		{
+			"date": "2020-02-05",
+			"type": "project",
+			"title": "Milestone 1",
+			"anchor": "milestones",
+			"link": {"document": "https://canvas.eee.uci.edu/courses/22304/assignments/407125", "presentation": "https://canvas.eee.uci.edu/courses/22304/assignments/407129"}
+		},
+		{
+			"date": "2020-02-05",
+			"type": "class",
+			"title": "Milestone Presentations & Mapping Review Work"
+		},
+		{
+			"date": "2020-02-10",
+			"type": "class",
+			"title": "Collection",
+			"readings":[
+				{
+					"authors": ["Eun Kyoung Choe", "Nicole B. Lee", "Bongshin Lee", "Wanda Pratt", "Julie A. Kientz"],
+					"title":"Understanding Quantified-Selfers’ Practices in Collecting and Exploring Personal Data",
+					"venue":"CHI",
+					"date":"2014",
+					"link": "http://doi.org/10.1145/2556288.2557372"
+				},
+				{
+					"authors": ["Young-Ho Kim", "Jae Ho Jeon", "Bongshin Lee", "Eun Kyoung Choe", "Jinwook Seo"],
+					"title": "OmniTrack: A Flexible Self-Tracking Approach Leveraging Semi-Automated Tracking",
+					"venue": "IMWUT",
+					"date": "2017",
+					"link":"https://dl.acm.org/citation.cfm?id=3130930"
+				},
+				{
+					"authors": ["Amid Ayobi", "Tobias Sonne", "Paul Marshall", "Anna L. Cox"],
+					"title": "Flexible and Mindful Self-Tracking: Design Implications from Paper Bullet Journals",
+					"venue": "CHI",
+					"date": "2018",
+					"link":"https://dl.acm.org/citation.cfm?id=3173602",
+					"optional":true
+				},
+				{
+					"authors":["Eun Kyoung Choe", "Saeed Abdullah", "Mashfiqui Rabbi", "Edison Thomaz", "Daniel A. Epstein", "Felicia Cordeiro", "Matthew Kay", "Gregory D. Abowd", "Tanzeem Choudhury", "James Fogarty", "Bongshin Lee", "Mark Matthews", "Julie A. Kientz"],
+					"title": "Semi-Automated Tracking: A Balanced Approach for Self-Monitoring Applications",
+					"venue":"IEEE Pervasive",
+					"date":"2017",
+					"link":"https://ieeexplore.ieee.org/abstract/document/7807194/",
+					"optional":true
+				}
+			]
+		},
+		{
+			"date": "2020-02-12",
+			"type": "class",
+			"title": "Mapping Review Work"
+		},
+		{
+			"date": "2020-02-17",
+			"type": "holiday",
+			"title": "No Class, President's Day"
+		},
+		{
+			"date": "2020-02-19",
+			"type": "class",
+			"title": "Integration",
+			"readings":[
+				{
+					"authors": ["Frank Bentley", "Konrad Tollmar", "Peter Stephenson", "Laura Levy", "Brian Jones", "Scott Robertson", "Ed Price", "Richard Catrambone", "Jeff Wilson"],
+					"title":"Health Mashups: Presenting Statistical Patterns between Wellbeing Data and Context in Natural Language to Promote Behavior Change",
+					"venue":"TOCHI",
+					"date":"2013",
+					"link": "http://doi.org/10.1145/2503823"
+				},
+				{
+					"authors": ["Deborah Estrin", "Ida Sim"],
+					"title": "Open mHealth Architecture: An Engine for Health Care Innovation",
+					"venue": "Science",
+					"date": "2010",
+					"link":"https://science.sciencemag.org/content/330/6005/759"
+				},
+				{
+					"authors": ["Jim Gemmell", "Gordon Bell", "Roger Lueder"],
+					"title":"MyLifeBits: A Personal Database for Everything",
+					"venue":"CACM",
+					"date":"2006",
+					"link":"https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/tr-2006-23.pdf"
+				},
+				{
+					"authors":["Eytan Adar", "David Karger", "Lynn Andrea Stein"],
+					"title":"Haystack: Per-User Information Environments",
+					"venue":"CIKM",
+					"date":"1999",
+					"link":"http://doi.org/10.1145/319950.323231",
+					"optional":true
+				}
+			]
+		},
+		{
+			"date": "2020-02-24",
+			"type": "class",
+			"title": "Reflection",
+			"readings":[
+				{
+					"authors": ["Rowanne Fleck", "Geraldine Fitzpatrick"],
+					"title":"Reflecting on Reflection: Framing a Design Landscape",
+					"venue":"OZCHI",
+					"date":"2010",
+					"link": "http://doi.org/10.1145/1952222.1952269"
+				},
+				{
+					"authors": ["Jasmin Niess", "Paweł W. Woźniak"],
+					"title": "Supporting Meaningful Personal Fitness: the Tracker Goal Evolution Model",
+					"venue": "CHI",
+					"date": "2018",
+					"link":"https://dl.acm.org/citation.cfm?id=3173745"
+				},
+				{
+					"authors": ["Jimmy Moore", "Pascal Goffin", "Miriah Meyer", "Philip Lundrigan", "Neal Patwari", "Katherine Sward", "Jason Wiese"],
+					"title":"Managing In-home Environments through Sensing, Annotating, and Visualizing Air Quality Data",
+					"venue":"IMWUT",
+					"date":"2018",
+					"link":"https://dl.acm.org/citation.cfm?id=3264938"
+				},
+				{
+					"authors":["Eric P.S. Baumer"],
+					"title":"Reflective Informatics: Conceptual Dimensions for Designing Technologies of Reflection",
+					"venue":"CHI",
+					"date":"2015",
+					"link":"https://dl.acm.org/citation.cfm?doid=2702123.2702234",
+					"optional":true
+				},
+				{
+					"authors":["Lie Ming Tang", "Judy Kay"],
+					"title":"Harnessing Long Term Physical Activity Data-How Long-term Trackers Use Data and How an Adherence-based Interface Supports New Insights",
+					"venue":"IMWUT",
+					"date":"2017",
+					"link":"https://dl.acm.org/citation.cfm?id=3090091",
+					"optional":true
+				},
+				{
+					"authors":["Petr Slovák", "Christopher Frauenberger", "Geraldine Fitzpatrick"],
+					"title":"Reflective Practicum: A Framework of Sensitising Concepts to Design for Transformative Reflection",
+					"venue":"CHI",
+					"date":"2017",
+					"link":"https://dl.acm.org/citation.cfm?id=3025516",
+					"optional":true
+				}
+			]
+		},
+		{
+			"date": "2020-02-26",
+			"type": "project",
+			"title": "Milestone 2",
+			"anchor": "milestones",
+			"link": {"document": "https://canvas.eee.uci.edu/courses/22304/assignments/407126", "presentation": "https://canvas.eee.uci.edu/courses/22304/assignments/407130"}
+		},
+		{
+			"date": "2020-02-26",
+			"type": "class",
+			"title": "Milestone Presentations"
+		},
+		{
+			"date": "2020-03-02",
+			"type": "class",
+			"title": "Action",
+			"readings":[
+				{
+					"authors": ["Charles Abraham", "Susan Michie"],
+					"title":"A Taxonomy of Behavior Change Techniques Used in Interventions",
+					"venue":"Health Psychology",
+					"volume": 27,
+					"issue": 3,
+					"date":"2008",
+					"link": "https://canvas.eee.uci.edu/files/8006977/download?download_frd=1"
+				},
+				{
+					"authors": ["Geza Kovacs", "Zhengxuan Wu", "Michael S. Bernstein"],
+					"title": "Rotating Online Behavior Change Interventions Increases Effectiveness But Also Increases Attrition",
+					"venue": "CSCW",
+					"date": "2018",
+					"link":"https://dl.acm.org/citation.cfm?id=3274364"
+				},
+				{
+					"authors": ["Rúben Gouveia", "Fábio Pereira", "Evangelos Karapanos", "Sean A. Munson", "Marc Hassenzahl"],
+					"title":"Exploring the Design Space of Glanceable Feedback for Physical Activity Trackers",
+					"venue":"UbiComp",
+					"date":"2016",
+					"link":"https://dl.acm.org/citation.cfm?id=2971754",
+					"optional":true
+				},
+				{
+					"authors": ["Min Kyung Lee", "Junsung Kim", "Jodi Forlizzi", "Sara Kiesler"],
+					"title":"Personalization Revisited: A Reflective Approach Helps People Better Personalize Health Services and Motivates Them to Increase Physical Activity",
+					"venue":"UbiComp",
+					"date":"2015",
+					"link":"http://doi.org/10.1145/2750858.2807552",
+					"optional":true
+				}
+			]
+		},
+		{
+			"date": "2020-03-04",
+			"type": "class",
+			"title": "Social, Collaborative, & Family Informatics",
+			"readings":[
+				{
+					"authors": ["Laura R. Pina", "Sang-Wha Sien", "Teresa Ward", "Jason C. Yip", "Sean A. Munson", "James Fogarty", "Julie A. Kientz"],
+					"title":"From Personal Informatics to Family Informatics: Understanding Family Practices Around Health Monitoring",
+					"venue":"CSCW",
+					"date":"2017",
+					"link": "https://dl.acm.org/citation.cfm?id=2998362"
+				},
+				{
+					"authors": ["Sonali R. Mishra", "Andrew D. Miller", "Shefali Haldar", "Maher Khelifi", "Jordan Eschler", "Rashmi G. Elera", "Ari H. Pollack", "Wanda Pratt"],
+					"title": "Supporting Collaborative Health Tracking in the Hospital: Patients' Perspectives",
+					"venue": "CHI",
+					"date": "2018",
+					"link":"https://dl.acm.org/citation.cfm?id=3174224"
+				},
+				{
+					"authors": ["Mark W. Newman", "Debra Lauterbach", "Sean A. Munson", "Paul Resnick", "Margaret E. Morris"],
+					"title":"It's Not That I Don't Have Problems, I'm Just Not Putting Them on Facebook: Challenges and Opportunities in Using Online Social Networks for Health",
+					"venue":"CSCW",
+					"date":"2011",
+					"link":"https://dl.acm.org/citation.cfm?id=1958876"
+				},
+				{
+					"authors": ["Xinning Gui", "Yu Chen", "Clara Caldeira", "Dan Xiao", "Yunan Chen"],
+					"title":"When Fitness Meets Social Networks: Investigating Fitness Tracking and Social Practices on WeRun",
+					"venue":"CHI",
+					"date":"2017",
+					"link":"https://dl.acm.org/citation.cfm?id=3025654",
+					"optional":true
+				},
+				{
+					"authors": ["Daniel A. Epstein", "Bradley H. Jacobson", "Elizabeth Bales", "David W. McDonald", "Sean A. Munson"],
+					"title":"From Nobody Cares to Way to Go!: A Design Framework for Social Sharing in Personal Informatics",
+					"venue":"CSCW",
+					"date":"2015",
+					"link":"https://dl.acm.org/citation.cfm?id=2675135",
+					"optional":true
+				}
+			]
+		},
+		{
+			"date": "2020-03-09",
+			"type": "class",
+			"title": "Critical Perspectives",
+			"readings":[
+				{
+					"authors": ["Pablo Abend", "Mathias Fuchs"],
+					"title":"The Quantified Self and Statistical Bodies",
+					"venue":"Digital Culture & Society",
+					"date":"2016",
+					"link":"https://mediarep.org/bitstream/handle/doc/3149/DIGITAL-CULTURE-AND-SOCIETY_2_1_2015_5-21_Abend_Fuchs_Introduction.pdf?sequence=1"
+				},
+				{
+					"authors": ["Stephen Purpura", "Victoria Schwanda", "Kaiton Williams", "William Stubler", "Phoebe Sengers"],
+					"title":"Fit4Life: The Design of a Persuasive Technology Promoting Healthy Behavior and Ideal Weight",
+					"venue":"CHI",
+					"date":"2011",
+					"link":"http://doi.org/10.1145/1978942.1979003"
+				},
+				{
+					"authors": ["Elizabeth V. Eikey", "Madhu C. Reddy"],
+					"title":"It's Definitely Been a Journey: A Qualitative Study on How Women with Eating Disorders Use Weight Loss Apps",
+					"venue":"CHI",
+					"date":"2017",
+					"link":"https://dl.acm.org/citation.cfm?id=3025591",
+					"optional":true
+				},
+				{
+					"authors": ["Wendy Nelson Espeland", "Mitchell L. Stevens"],
+					"title":"A Sociology of Quantification",
+					"venue":"European Journal of Sociology",
+					"volume":49,
+					"issue":3,
+					"date":"2008",
+					"link":"https://doi.org/10.1017/S0003975609000150",
+					"optional":true
+				},
+				{
+					"authors": ["Vera Khovanskaya", "Eric P.S. Baumer", "Dan Cosley", "Steven Voida", "Geri Gey"],
+					"title":"\"Everybody Knows What You're Doing\": a Critical Design Approach to Personal Informatics",
+					"venue":"CHI",
+					"date":"2013",
+					"link":"https://dl.acm.org/citation.cfm?id=2466467",
+					"optional":true
+				}
+			]
+		},
+		{
+			"date": "2020-03-11",
+			"type": "project",
+			"title": "Final Presentation",
+			"anchor": "finalpresentation",
+			"link": {"document": "https://canvas.eee.uci.edu/courses/22304/assignments/407131"}
+		},
+		{
+			"date": "2020-03-11",
+			"type": "class",
+			"title": "Final Presentations"
+		},
+		{
+			"date": "2020-03-18",
+			"type": "project",
+			"title": "Final Report",
+			"anchor": "finalreport",
+			"link": {"document": "https://canvas.eee.uci.edu/courses/22304/assignments/407127"}
+		}
+	]
+}
