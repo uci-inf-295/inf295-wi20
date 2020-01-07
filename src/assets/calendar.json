@@ -9,7 +9,8 @@
 			"date": "2020-01-06",
 			"type": "class",
 			"title": "Course Overview and Planning",
-			"notes": "No readings this class and no reading query due."
+			"notes": "No readings this class and no reading query due.",
+			"slides": "assets/slides/01_06_20-introduction.pdf"
 		},
 		{
 			"date": "2020-01-08",
@@ -144,7 +145,7 @@
 					"title": "Examining Opportunities for Goal-Directed Self-Tracking to Support Chronic Condition Management",
 					"venue": "IMWUT",
 					"date":"2020",
-					"link":"https://homes.cs.washington.edu/~jesscs/website/pubs/pdfs/ubicomp20.pdf"
+					"link":"https://doi.org/10.1145/3369809"
 				},
 				{
 					"authors": ["Nediyana Daskalova", "Danaë Metaxa-Kakavouli", "Adrienne Tran", "Nicole Nugent", "Julie Boergers", "John McGeary", "Jeff Huang"],
