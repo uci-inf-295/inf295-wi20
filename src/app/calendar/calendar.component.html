@@ -13,6 +13,7 @@
 						{{event.title}}
 						<a [href]="event.slides" target="_blank" *ngIf="event.slides">(slides)</a>
 					</h2>
+					<h3 *ngIf="event.leader" class="leader">Discussion leader: {{event.leader}}</h3>
 					<p *ngIf="event.readings">
 						Read the following:
 					</p>

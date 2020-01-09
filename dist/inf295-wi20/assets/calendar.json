@@ -16,6 +16,7 @@
 			"date": "2020-01-08",
 			"type": "class",
 			"title": "Stage-Based Model and Mapping the Literature",
+			"slides": "assets/slides/01_08_20-stage_mapping.pdf",
 			"readings":[
 				{
 					"authors": ["Ian Li", "Anind Dey", "Jodi Forlizzi"],
@@ -45,13 +46,14 @@
 			"date": "2020-01-13",
 			"type": "class",
 			"title": "HCI in Promoting Health and Wellness",
+			"leader": "Lucretia Williams",
 			"readings":[
 				{
 					"authors": ["Sunny Consolvo", "Predrag Klasnja", "David W. McDonald", "James A. Landay"],
 					"title": "Designing for Healthy Lifestyles: Design Considerations for Mobile Technologies to Encourage Consumer Health and Wellness",
 					"venue":"Foundations & Trends in Human-Computer Interaction",
 					"link": "http://dx.doi.org/10.1561/1100000040",
-					"notes": "This survey paper already provides a larger context for significant research. But it covers a large number of conceptual ideas, necessarily glossing over important people, systems, and results. Presentation should therefore introduce covered people, systems, and results."
+					"notes": "Focus on chapters 2-4, skip/skim the remaining chapters. This survey paper already provides a larger context for significant research. But it covers a large number of conceptual ideas, necessarily glossing over important people, systems, and results. Presentation should therefore introduce covered people, systems, and results."
 				},
 				{
 					"authors": ["Predrag Klasnja", "Sunny Consolvo", "Wanda Pratt"],
