@@ -63,7 +63,8 @@
 					"link": "https://dl.acm.org/citation.cfm?id=1979396",
 					"optional":true
 				}
-			]
+			],
+			"slides":"assets/slides/01_13_20-health_wellness.pdf"
 		},
 		{
 			"date": "2020-01-15",
@@ -90,6 +91,7 @@
 		{
 			"date": "2020-01-27",
 			"type": "class",
+			"leader": "Lucas de Melo Silva",
 			"title": "Lived Informatics",
 			"readings":[
 				{
@@ -140,6 +142,7 @@
 		{
 			"date": "2020-02-03",
 			"type": "class",
+			"leader": "Jong Ho Lee",
 			"title": "Preparation & Self-Experimentation",
 			"readings":[
 				{
