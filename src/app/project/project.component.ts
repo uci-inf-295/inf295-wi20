@@ -27,8 +27,8 @@ export class ProjectComponent implements OnInit {
 	}).map(event => {
 		let project = {
 			//All assignments due 11:59pm the day they are listed on the calendar
-			'dueShort': moment(event.date).subtract(1, 'minutes').add(1, "days").format("MMMM D"),
-			'dueLong': moment(event.date).subtract(1, 'minutes').add(1, "days").format("dddd, MMMM Do, YYYY [at] hh:mma"),
+			'dueShort': moment(event.date).subtract(1, 'minutes').format("MMMM D"),
+			'dueLong': moment(event.date).subtract(1, 'minutes').format("dddd, MMMM Do, YYYY [at] hh:mma"),
 			'title': event.title
 		};
 		if('anchor' in event) {
