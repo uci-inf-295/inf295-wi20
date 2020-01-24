@@ -76,7 +76,7 @@
 		{
 			"date": "2020-01-15",
 			"type": "class",
-			"title": "Presentations on Project Proposals & Mapping Review Work"
+			"title": "Presentations on Project Proposals"
 		},
 		{
 			"date": "2020-01-20",
@@ -137,11 +137,6 @@
 		{
 			"date": "2020-01-29",
 			"type": "class",
-			"title": "Mapping Review Work"
-		},
-		{
-			"date": "2020-02-03",
-			"type": "class",
 			"leader": "Jong Ho Lee",
 			"title": "Preparation & Self-Experimentation",
 			"readings":[
@@ -186,19 +181,7 @@
 			]
 		},
 		{
-			"date": "2020-02-05",
-			"type": "project",
-			"title": "Milestone 1",
-			"anchor": "milestones",
-			"link": {"document": "https://canvas.eee.uci.edu/courses/22304/assignments/407125", "presentation": "https://canvas.eee.uci.edu/courses/22304/assignments/407129"}
-		},
-		{
-			"date": "2020-02-05",
-			"type": "class",
-			"title": "Milestone Presentations & Mapping Review Work"
-		},
-		{
-			"date": "2020-02-10",
+			"date": "2020-02-03",
 			"type": "class",
 			"title": "Collection",
 			"readings":[
@@ -235,17 +218,19 @@
 			]
 		},
 		{
-			"date": "2020-02-12",
+			"date": "2020-02-05",
+			"type": "project",
+			"title": "Milestone 1",
+			"anchor": "milestones",
+			"link": {"document": "https://canvas.eee.uci.edu/courses/22304/assignments/407125", "presentation": "https://canvas.eee.uci.edu/courses/22304/assignments/407129"}
+		},
+		{
+			"date": "2020-02-05",
 			"type": "class",
-			"title": "Mapping Review Work"
+			"title": "Milestone Presentations"
 		},
 		{
-			"date": "2020-02-17",
-			"type": "holiday",
-			"title": "No Class, President's Day"
-		},
-		{
-			"date": "2020-02-19",
+			"date": "2020-02-10",
 			"type": "class",
 			"title": "Integration",
 			"readings":[
@@ -281,7 +266,17 @@
 			]
 		},
 		{
-			"date": "2020-02-24",
+			"date": "2020-02-12",
+			"type": "class",
+			"title": "Mapping Review Work"
+		},
+		{
+			"date": "2020-02-17",
+			"type": "holiday",
+			"title": "No Class, President's Day"
+		},
+		{
+			"date": "2020-02-19",
 			"type": "class",
 			"title": "Reflection",
 			"readings":[
@@ -333,19 +328,7 @@
 			]
 		},
 		{
-			"date": "2020-02-26",
-			"type": "project",
-			"title": "Milestone 2",
-			"anchor": "milestones",
-			"link": {"document": "https://canvas.eee.uci.edu/courses/22304/assignments/407126", "presentation": "https://canvas.eee.uci.edu/courses/22304/assignments/407130"}
-		},
-		{
-			"date": "2020-02-26",
-			"type": "class",
-			"title": "Milestone Presentations"
-		},
-		{
-			"date": "2020-03-02",
+			"date": "2020-02-24",
 			"type": "class",
 			"title": "Action",
 			"readings":[
@@ -384,17 +367,22 @@
 			]
 		},
 		{
-			"date": "2020-03-04",
+			"date": "2020-02-26",
+			"type": "project",
+			"title": "Milestone 2",
+			"anchor": "milestones",
+			"link": {"document": "https://canvas.eee.uci.edu/courses/22304/assignments/407126", "presentation": "https://canvas.eee.uci.edu/courses/22304/assignments/407130"}
+		},
+		{
+			"date": "2020-02-26",
 			"type": "class",
-			"title": "Social, Collaborative, & Family Informatics",
+			"title": "Milestone Presentations"
+		},
+		{
+			"date": "2020-03-02",
+			"type": "class",
+			"title": "Social & Collaborative Tracking",
 			"readings":[
-				{
-					"authors": ["Laura R. Pina", "Sang-Wha Sien", "Teresa Ward", "Jason C. Yip", "Sean A. Munson", "James Fogarty", "Julie A. Kientz"],
-					"title":"From Personal Informatics to Family Informatics: Understanding Family Practices Around Health Monitoring",
-					"venue":"CSCW",
-					"date":"2017",
-					"link": "https://dl.acm.org/citation.cfm?id=2998362"
-				},
 				{
 					"authors": ["Sonali R. Mishra", "Andrew D. Miller", "Shefali Haldar", "Maher Khelifi", "Jordan Eschler", "Rashmi G. Elera", "Ari H. Pollack", "Wanda Pratt"],
 					"title": "Supporting Collaborative Health Tracking in the Hospital: Patients' Perspectives",
@@ -410,19 +398,70 @@
 					"link":"https://dl.acm.org/citation.cfm?id=1958876"
 				},
 				{
+					"authors": ["Daniel A. Epstein", "Bradley H. Jacobson", "Elizabeth Bales", "David W. McDonald", "Sean A. Munson"],
+					"title":"From Nobody Cares to Way to Go!: A Design Framework for Social Sharing in Personal Informatics",
+					"venue":"CSCW",
+					"date":"2015",
+					"link":"https://dl.acm.org/citation.cfm?id=2675135"
+				},
+				{
+					"authors": ["Janne Lindqvist", "Justin Cranshaw", "Jason Wiese", "Jason Hong", "John Zimmerman"],
+					"title":"I'm the mayor of my house: examining why people use foursquare - a social-driven location sharing application",
+					"venue":"CHI",
+					"date":"2011",
+					"link":"https://dl.acm.org/doi/abs/10.1145/1978942.1979295",
+					"optional":true
+				},
+				{
 					"authors": ["Xinning Gui", "Yu Chen", "Clara Caldeira", "Dan Xiao", "Yunan Chen"],
 					"title":"When Fitness Meets Social Networks: Investigating Fitness Tracking and Social Practices on WeRun",
 					"venue":"CHI",
 					"date":"2017",
 					"link":"https://dl.acm.org/citation.cfm?id=3025654",
 					"optional":true
+				}
+			]
+		},
+		{
+			"date": "2020-03-04",
+			"type": "class",
+			"title": "Child, Adolescent, & Family Informatics",
+			"readings":[
+				{
+					"authors": ["Barry Brown", "Alex S. Taylor", "Shahram Izadi", "Abigail Sellen", "Joseph 'Jofish' Kaye", "Rachel Eardley"],
+					"title":"Locating Family Values: A Field Trial of the Whereabouts Clock",
+					"venue":"UbiComp",
+					"date":"2007",
+					"link":"https://link.springer.com/chapter/10.1007/978-3-540-74853-3_21"
 				},
 				{
-					"authors": ["Daniel A. Epstein", "Bradley H. Jacobson", "Elizabeth Bales", "David W. McDonald", "Sean A. Munson"],
-					"title":"From Nobody Cares to Way to Go!: A Design Framework for Social Sharing in Personal Informatics",
+					"authors": ["Laura R. Pina", "Sang-Wha Sien", "Teresa Ward", "Jason C. Yip", "Sean A. Munson", "James Fogarty", "Julie A. Kientz"],
+					"title":"From Personal Informatics to Family Informatics: Understanding Family Practices Around Health Monitoring",
 					"venue":"CSCW",
-					"date":"2015",
-					"link":"https://dl.acm.org/citation.cfm?id=2675135",
+					"date":"2017",
+					"link": "https://dl.acm.org/citation.cfm?id=2998362"
+				},
+				{
+					"authors": ["Herman Saksono", "Carmen Castaneda-Sceppa", "Jessica Hoffman", "Vivien Morris", "Magy Seif El-Nasr", "Andrea G. Parker"],
+					"title":"Storywell: Designing for Family Fitness App Motivation by Using Social Rewards and Reflection",
+					"venue":"CHI",
+					"date":"2020",
+					"link":"https://wellness.khoury.northeastern.edu/files/2020/01/Saksono_et_al_Storywell_2020.pdf"
+				},
+				{
+					"authors":["Kai Lukoff", "Taoxi Li", "Yuan Zhang", "Brian Y. Lim"],
+					"title":"TableChat: Mobile Food Journaling to Facilitate Family Support for Healthy Eating",
+					"venue":"CSCW",
+					"date":"2018",
+					"link":"https://dl.acm.org/doi/10.1145/3274383",
+					"optional":true
+				},
+				{
+					"authors":["Junqing Wang", "Aisling Ann O'Kane", "Nikki Newhouse", "Geraint Rhys Sethu-Jones", "Kaya de Barbaro"],
+					"title":"Quantified Baby: Parenting and the Use of a Baby Wearable in the Wild",
+					"venue":"CSCW",
+					"date":"2017",
+					"link":"https://dl.acm.org/citation.cfm?id=3134743",
 					"optional":true
 				}
 			]
