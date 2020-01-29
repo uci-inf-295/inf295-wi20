@@ -91,6 +91,7 @@
 		{
 			"date": "2020-01-27",
 			"type": "class",
+			"slides": "assets/slides/01_27_20-lived_informatics.pdf",
 			"leader": "Lucas de Melo Silva",
 			"title": "Lived Informatics",
 			"readings":[
@@ -137,6 +138,7 @@
 		{
 			"date": "2020-01-29",
 			"type": "class",
+			"slides": "assets/slides/01_29_20-preparation_experimentation.pdf",
 			"leader": "Jong Ho Lee",
 			"title": "Preparation & Self-Experimentation",
 			"readings":[
