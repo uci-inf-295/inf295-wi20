@@ -4,10 +4,10 @@
 	<ng-container *ngFor="let day of calendar">
 		<hr class="row">
 		<div class="row">
-			<div class="col-2">
+			<div class="col-xs-12 col-sm-2">
 				<h2>{{day.date_str}}</h2>
 			</div>
-			<div class="col-10">
+			<div class="col-xs-12 col-sm-10">
 				<div class="col-12 event" [ngClass]="event.type" *ngFor="let event of day.events">
 					<h2 *ngIf="event.type == 'class'">
 						{{event.title}}
