@@ -238,6 +238,7 @@
 			"type": "class",
 			"title": "Integration",
 			"leader": "Xi Lu",
+			"slides": "assets/slides/02_10_20-integration.pdf",
 			"readings":[
 				{
 					"authors": ["Frank Bentley", "Konrad Tollmar", "Peter Stephenson", "Laura Levy", "Brian Jones", "Scott Robertson", "Ed Price", "Richard Catrambone", "Jeff Wilson"],
@@ -285,6 +286,7 @@
 			"type": "class",
 			"title": "Reflection",
 			"leader": "Xi Lu and Jong Ho Lee",
+			"slides": "assets/slides/02_19_20-reflection.pdf",
 			"readings":[
 				{
 					"authors": ["Rowanne Fleck", "Geraldine Fitzpatrick"],
@@ -338,6 +340,7 @@
 			"type": "class",
 			"title": "Action",
 			"leader": "Je Seok Lee",
+			"slides": "assets/slides/02_24_20-action.pdf",
 			"readings":[
 				{
 					"authors": ["Charles Abraham", "Susan Michie"],
