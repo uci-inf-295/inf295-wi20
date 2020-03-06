@@ -33,6 +33,10 @@ export class ProjectComponent implements OnInit {
 		};
 		if('anchor' in event) {
 			project['anchor'] = event.anchor;
+			if(event.anchor == 'finalreport') {
+				project['dueShort'] = moment(event.date).add(1, 'days').subtract(1, 'minutes').format("MMMM D");
+				project['dueLong'] = moment(event.date).add(1, 'days').subtract(1, 'minutes').format("dddd, MMMM Do, YYYY [at] hh:mma");
+			}
 		}
 		if('link' in event) {
 			project['link'] = event.link;
