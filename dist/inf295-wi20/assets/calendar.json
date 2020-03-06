@@ -491,11 +491,11 @@
 			"title": "Critical Perspectives",
 			"readings":[
 				{
-					"authors": ["Pablo Abend", "Mathias Fuchs"],
-					"title":"The Quantified Self and Statistical Bodies",
-					"venue":"Digital Culture & Society",
-					"date":"2016",
-					"link":"https://mediarep.org/bitstream/handle/doc/3149/DIGITAL-CULTURE-AND-SOCIETY_2_1_2015_5-21_Abend_Fuchs_Introduction.pdf?sequence=1"
+					"authors": ["Deborah Lupton"],
+					"title":"Quantifying the body: monitoring and measuring health in the age of mHealth technologies",
+					"venue":"Critical Public Health",
+					"date":"2013",
+					"link":"https://www.tandfonline.com/doi/full/10.1080/09581596.2013.794931"
 				},
 				{
 					"authors": ["Stephen Purpura", "Victoria Schwanda", "Kaiton Williams", "William Stubler", "Phoebe Sengers"],
